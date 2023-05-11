@@ -7,7 +7,7 @@
 .container {
 	max-width: 576px;
 	margin: 0 auto;
-	padding: 0 30px;
+	padding: 30px 30px;
 }
 
 ul{
@@ -21,6 +21,7 @@ ul{
 .hide{
 	display: none;
 }
+
 /* Header */
 header{
 	background-color: #0084fd;
@@ -30,6 +31,9 @@ header{
 	right: 0;
 	left: 0;
 	z-index: 1;
+	max-width: 576px;
+	margin: 0 auto;
+	padding: 0 30px;
 }
 .all-header{
     padding: 15px 0;
@@ -53,10 +57,20 @@ header{
 	min-height: 600px;
 	background-color: #b5ddff ;
 	border-radius: 50px;
-	margin: 50px 0;
+	margin-bottom: 20px;
+	
 }
 
 .card img{
 	width: 100%;
 	display: block;
 }
+
+/* SECOND SECTION */
+.secondsection{
+	background-color: #9792e4 ;
+}
+.secondsection .card{
+	background-color: #fff;
+}
+
