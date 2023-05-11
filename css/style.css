@@ -7,7 +7,39 @@
 .container {
 	max-width: 576px;
 	margin: 0 auto;
+	padding: 0 30px;
 }
 
+ul{
+	list-style: none;
+}
 
+.d-flex{
+	display: flex;
+}
 
+.hide{
+	display: none;
+}
+/* Header */
+header{
+	background-color: #0084fd;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+}
+.all-header{
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-right ul > li{
+    display: inline-block;
+}
+
+.header-right i{
+	color: white;
+}
