@@ -7,7 +7,7 @@
 .container {
 	max-width: 576px;
 	margin: 0 auto;
-	padding: 30px 30px;
+	padding: 0px 30px;
 }
 
 ul{
@@ -30,9 +30,7 @@ header{
 	right: 0;
 	left: 0;
 	z-index: 1;
-	max-width: 576px;
-	margin: 0 auto;
-	padding: 0 30px;
+
 }
 .all-header{
     padding: 15px 0;
@@ -47,14 +45,15 @@ header{
 	color: white;
 }
 
-.mar-top100{
-	margin-top: 100px;
+.mar-top80{
+	margin-top: 80px;
 }
 
 .card{
-	min-height: 400px;
+	height: 400px;
+	
 	background-color: #b5ddff ;
-	border-radius: 50px;
+	border-radius: 10px;
 	margin-bottom: 20px;
 	
 }
@@ -83,4 +82,39 @@ header{
 	background-color: #222;
 	min-height: 500px;
 	color: white;
+}
+
+.row{
+	padding: 50px 0;
+}
+/* RESPONSIVE LAYOUTS */
+
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 768px;
+	}
+	.firstsection .row{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+	.largercard{
+		width: calc(66.6% - 10px);
+	}
+
+	.smallercard{
+		width: calc(33.3% - 10px);
+	}
+
+	.regularcard{
+		width: calc(33.3% - 20px);
+	}
+}
+
+@media screen and (min-width: 992px){
+	.container{
+		max-width: 992px;
+	}
+
 }
