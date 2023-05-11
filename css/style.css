@@ -22,7 +22,6 @@ ul{
 	display: none;
 }
 
-/* Header */
 header{
 	background-color: #0084fd;
 	height: 80px;
@@ -51,10 +50,9 @@ header{
 .mar-top100{
 	margin-top: 100px;
 }
-/* FIRST SECTION */
 
 .card{
-	min-height: 600px;
+	min-height: 400px;
 	background-color: #b5ddff ;
 	border-radius: 50px;
 	margin-bottom: 20px;
@@ -66,7 +64,6 @@ header{
 	display: block;
 }
 
-/* SECOND SECTION */
 .secondsection{
 	background-color: #9792e4 ;
 }
@@ -74,3 +71,16 @@ header{
 	background-color: #fff;
 }
 
+.benefit{
+	background-color: #9792e4;
+}
+
+.get-started{
+	background-color: #9792e4;
+}
+
+.all-footer{
+	background-color: #222;
+	min-height: 500px;
+	color: white;
+}
